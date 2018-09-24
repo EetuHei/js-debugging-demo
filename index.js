@@ -4,6 +4,7 @@ function sum(a, b) {
     let value2 = b;
     let result = value1 + value2;
     return result;
+}
 
 function subtract(k, o) {
     return k - o ;
