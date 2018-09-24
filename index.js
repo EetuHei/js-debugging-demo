@@ -1,8 +1,11 @@
+function subtract(k, o) {
+    return k - o ;
+    console.log( k - o ) ;
+}
+
 function sum(a, b) {
-    let value1 = a;
-    let value2 = b;
-    let result = a + b;
-    return result;
+    return a + b ;
+    console.log( a + b ) ;
 }
 
 function max(a, b) {
@@ -40,6 +43,7 @@ function arraySum(a, b)
 }
 
 
+console.log("subtract: " + subtract(10, 5));
 console.log("sum: " + sum(30, 20));
 console.log("max: " + max(10, 13));
 console.log("factorial: " + factorial(3));
