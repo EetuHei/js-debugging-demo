@@ -1,11 +1,9 @@
 function subtract(k, o) {
     return k - o ;
-    console.log( k - o ) ;
 }
 
 function sum(a, b) {
     return a + b ;
-    console.log( a + b ) ;
 }
 
 function max(a, b) {
