@@ -1,13 +1,22 @@
+<<<<<<< HEAD
  HEAD
 function substract(c, d) {
     let result = c - d
     return result
 }
 function sum(a, b) {
+=======
+
+function sum(b, a) {
+>>>>>>> fa811a2db5ce4ecc2002bf7ff335e6418142d0a1
     let value1 = a;
     let value2 = b;
     let result = value1 + value2;
     return result;
+<<<<<<< HEAD
+=======
+}
+>>>>>>> fa811a2db5ce4ecc2002bf7ff335e6418142d0a1
 
 function subtract(k, o) {
     return k - o ;
@@ -16,7 +25,10 @@ function subtract(k, o) {
 function sum(a, b) {
     return a + b ;
     console.log( a + b ) ;
+<<<<<<< HEAD
 
+=======
+>>>>>>> fa811a2db5ce4ecc2002bf7ff335e6418142d0a1
 }
 
 function max(a, b) {
@@ -52,11 +64,16 @@ function arraySum(a, b)
 
     return result;
 }
+<<<<<<< HEAD
 
 console.log("substract: " + substract(20, 5))
 
 console.log("subtract: " + subtract(10, 5));
 console.log("sum: " + sum(30, 20));
+=======
+console.log("subtract: " + subtract(10, 5));
+  console.log("sum: " + sum(30, 20));
+>>>>>>> fa811a2db5ce4ecc2002bf7ff335e6418142d0a1
 console.log("max: " + max(10, 13));
 console.log("factorial: " + factorial(3));
 
