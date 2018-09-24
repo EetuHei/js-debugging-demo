@@ -1,6 +1,4 @@
 function substract(c, d) {
-    let c = 20
-    let d = 5
     let result = c - d
     return result
 }
